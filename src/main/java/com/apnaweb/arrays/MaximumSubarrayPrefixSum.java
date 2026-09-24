@@ -1,6 +1,6 @@
-package Array;
+package com.apnaweb.arrays;
 
-public class subarrMaxsum1 {
+public class MaximumSubarrayPrefixSum {
     public static void maxsum(int num[]){
         int currsum=0;
         int max = Integer.MIN_VALUE;

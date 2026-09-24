@@ -1,6 +1,6 @@
-package Array;
+package com.apnaweb.arrays;
 //it is brute force solutioon it's time complexity is O(n)^3 which is a worst case we can optimize that solution
-public class subarrMaxsum {
+public class MaximumSubarrayBruteForce {
     public static void maxsum(int num[]){
         int currsum=0;
         int max = Integer.MIN_VALUE;

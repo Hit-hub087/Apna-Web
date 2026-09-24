@@ -1,6 +1,6 @@
-package Array;
+package com.apnaweb.arrays;
 
-public class Pair_arr {
+public class PairArray {
     public static void pairs(int num[]){
          int tpair=0;
         for(int i=0; i<num.length; i++){

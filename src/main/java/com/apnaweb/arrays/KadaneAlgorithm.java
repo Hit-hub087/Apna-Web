@@ -1,6 +1,6 @@
-package Array;
+package com.apnaweb.arrays;
 
-public class Kadanesalgo {
+public class KadaneAlgorithm {
     public static void maxsum(int num[]){
         int cs = 0;
         int ms = Integer.MIN_VALUE;

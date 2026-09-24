@@ -1,28 +1,28 @@
-package Constructor;
+package com.apnaweb.constructors;
 
-public class Overloading {
+public class ConstructorOverloading {
     private int id;
     private String name;
     private double salary;
     private String projName ="Not alloted";
-    public Overloading(int id,String name,double sal,String prname){
+    public ConstructorOverloading(int id,String name,double sal,String prname){
         this.id = id;
         this.name = name;
         this.salary = sal;
         projName = prname;
     }
-    public Overloading(int id,String name,String prname){
+    public ConstructorOverloading(int id,String name,String prname){
         this.id = id;
         this.name = name;
         this.salary = 50000;
         projName = prname;
     }
-    public Overloading(int id,String name,double sal){
+    public ConstructorOverloading(int id,String name,double sal){
         this.id = id;
         this.name = name;
         this.salary = sal;
     }
-    public Overloading(int id,String name,String prname,double sal){
+    public ConstructorOverloading(int id,String name,String prname,double sal){
         this.id = id;
         this.name = name;
         this.salary = sal;
@@ -35,10 +35,10 @@ public class Overloading {
 
 class UseEmp{
     public static void main(String[] args) {
-        Overloading obj = new Overloading(1,"Rajesh",60000.0,"Chat Application");
-        Overloading obj1 = new Overloading(2,"Suman","Chat Application");
-        Overloading obj2 = new Overloading(3,"Prakash",80000.0);
-        Overloading obj3 = new Overloading(4,"Rajesh","Chat Application",90000.0);
+        ConstructorOverloading obj = new ConstructorOverloading(1,"Rajesh",60000.0,"Chat Application");
+        ConstructorOverloading obj1 = new ConstructorOverloading(2,"Suman","Chat Application");
+        ConstructorOverloading obj2 = new ConstructorOverloading(3,"Prakash",80000.0);
+        ConstructorOverloading obj3 = new ConstructorOverloading(4,"Rajesh","Chat Application",90000.0);
         obj.show();
         obj1.show();
         obj2.show();

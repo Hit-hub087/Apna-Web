@@ -1,4 +1,4 @@
-package Array;
+package com.apnaweb.arrays;
 
 public class Subarray {
     public static void subarr(int num[]){
