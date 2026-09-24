@@ -1,6 +1,6 @@
-package Array;
+package com.apnaweb.arrays;
 
-public class Linear_Searcch {
+public class LinearSearch {
     public static int search(int Numbers[], int target) {
         for (int i = 0; i < Numbers.length; i++) {
             if (Numbers[i] == target) {

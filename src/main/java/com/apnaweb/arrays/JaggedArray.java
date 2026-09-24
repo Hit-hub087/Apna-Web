@@ -1,4 +1,4 @@
-package Array;
+package com.apnaweb.arrays;
 import java.util.Scanner;
 public class JaggedArray {
     public static void main(String[] args){

@@ -1,8 +1,8 @@
-package Array;
+package com.apnaweb.arrays;
 
 import static java.util.Arrays.sort;
 
-public class Binary_Search {
+public class BinarySearch {
     public static int binarySearch(int numbers[],int key){
         int start=0,end = numbers.length-1;
 

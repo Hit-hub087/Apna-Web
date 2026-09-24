@@ -1,7 +1,7 @@
-package Array;
+package com.apnaweb.arrays;
 import java.util.*;
 
-public class Gnumber {
+public class LargestAndSmallestNumber {
     public static int Largest_num(int Numbers[]){
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;

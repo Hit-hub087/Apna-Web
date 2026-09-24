@@ -1,4 +1,4 @@
-package Array;
+package com.apnaweb.arrays;
 
 public class Patterns {
     public static void hollow_patterns(int r, int c){
